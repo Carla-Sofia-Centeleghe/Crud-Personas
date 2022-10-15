@@ -3,6 +3,7 @@
 
 import unittest
 from persona import Persona
+from personaService import PersonaService
 
 class TestPersona(unittest.TestCase):
     def testPersona_1(self):
@@ -14,6 +15,7 @@ class TestPersona(unittest.TestCase):
         persona = Persona(1, 'Hongito', 'Pepe')
         self.assertEqual(persona.__dict__,
                          {'documento': 1, 'apellido': 'Hongito', 'nombre': 'Pepe'})
+
 
 if __name__ == '__main__':
     unittest.main()
