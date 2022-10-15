@@ -3,7 +3,7 @@
 
 import unittest
 from persona import Persona
-from personaService import PersonaService
+#from personaService import PersonaService
 
 class TestPersona(unittest.TestCase):
     def testPersona_1(self):
